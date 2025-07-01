@@ -1,3 +1,5 @@
 export default function Home() {
-  return <h1>Lorem</h1>;
+  return <div className="h-[200vh]">
+    <h1>Lorem</h1>
+  </div>;
 }
