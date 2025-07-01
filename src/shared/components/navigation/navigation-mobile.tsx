@@ -42,7 +42,9 @@ export default function NavigationBarMobile() {
         ))}
         <div className="flex gap-5 pt-5">
           {NavigationSocial.map((item, index) => (
-            <div
+            <Link
+              href={item.href}
+              target="_blank"
               key={index}
               className="p-2 bg-black cursor-pointer hover:bg-red-600 transition duration-500"
             >
@@ -52,7 +54,7 @@ export default function NavigationBarMobile() {
                 height={26}
                 style={{ color: "white" }}
               />
-            </div>
+            </Link>
           ))}
         </div>
         <Icon
