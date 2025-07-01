@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "sal.js/dist/sal.css";
 import NavigationBar from "@/shared/components/navigation/navigation";
+import Footer from "@/shared/components/footer/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({
       >
         <NavigationBar />
         <section className="pt-24 lg:pt-42">{children}</section>
+        <Footer />
       </body>
     </html>
   );
