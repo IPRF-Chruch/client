@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "sal.js/dist/sal.css";
 import NavigationBar from "@/shared/components/navigation/navigation";
 
 const geistSans = Geist({
@@ -29,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
       >
         <NavigationBar />
-        {children}
+        <section className="pt-24 lg:pt-42">{children}</section>
       </body>
     </html>
   );

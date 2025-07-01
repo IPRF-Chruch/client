@@ -1,5 +1,3 @@
-"use client";
-
 import {
   NavigationList,
   NavigationSocial,
@@ -11,7 +9,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function NavigationBarMobile() {
-  const [isShow, setIsShow] = useState<true | false>(true);
+  const [isShow, setIsShow] = useState<true | false>(false);
 
   return (
     <div className="w-full flex lg:hidden items-center justify-between">
