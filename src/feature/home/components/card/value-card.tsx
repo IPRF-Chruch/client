@@ -8,7 +8,7 @@ interface IValueCard {
 
 export default function ValueCard({ title, description, icon }: IValueCard) {
   return (
-    <div className="relative w-60 h-60 rounded-xl p-3 border-1 space-y-3">
+    <div className="relative w-full lg:w-60 lg:h-60 rounded-xl p-3 border-1 space-y-3">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 p-5 border rounded-full bg-white">
         <Icon icon={icon} className="w-full h-full" />
       </div>

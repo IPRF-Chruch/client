@@ -9,7 +9,7 @@ export default function VisiMisiSection() {
   }, []);
 
   return (
-    <div className="w-full grid grid-cols-5 gap-14 px-24 py-5">
+    <div className="w-full grid lg:grid-cols-5 gap-14 px-8 lg:px-24 py-5">
       <h1
         className="text-4xl font-bold"
         data-sal="slide-up"
@@ -18,7 +18,7 @@ export default function VisiMisiSection() {
         Visi Misi Gereja
       </h1>
       <div
-        className="space-y-5 col-span-2"
+        className="space-y-5 lg:col-span-2"
         data-sal="slide-up"
         data-sal-duration="1200"
       >
@@ -40,7 +40,7 @@ export default function VisiMisiSection() {
         </p>
       </div>
       <div
-        className="space-y-5 col-span-2"
+        className="space-y-5 lg:col-span-2"
         data-sal="slide-up"
         data-sal-duration="1400"
       >

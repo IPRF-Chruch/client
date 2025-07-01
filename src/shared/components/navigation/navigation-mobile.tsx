@@ -30,10 +30,10 @@ export default function NavigationBarMobile() {
         />
       </section>
       <motion.section
-        initial={{ x: 0 }}
+        initial={{ x: "100%" }}
         animate={{ x: isShow ? 0 : "100%" }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="absolute top-0 right-0 fixed bg-white w-full h-screen px-10 py-20 flex flex-col gap-6"
+        className="absolute top-0 right-0 fixed bg-white w-full h-[200vh] px-10 py-20 flex flex-col gap-6"
       >
         {NavigationList.map((item, index) => (
           <Link href={item.href} key={index} className="text-4xl">
