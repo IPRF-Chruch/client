@@ -1,4 +1,4 @@
-import image from "@/shared/assets/images/pastor/Pastor-Photo.avif";
+import image from "@/shared/assets/images/pastor/Pastor-Photo.png";
 import type { StaticImageData } from "next/image";
 
 interface IPastorBiodata {

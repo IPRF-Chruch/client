@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/*
+
+# Host
+Host: https://client-red-xi-12.vercel.app/
+
+# Sitemaps
+Sitemap: https://client-red-xi-12.vercel.app/sitemap.xml

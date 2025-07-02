@@ -1,5 +1,4 @@
 import { ScheduleList } from "@/shared/data/static/ScheduleList";
-import { li } from "motion/react-client";
 
 export default function HeroSection() {
   return (
