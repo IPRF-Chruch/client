@@ -2,7 +2,6 @@ import { ContactList } from "@/shared/data/static/ContactList";
 import { NavigationSocial } from "@/shared/data/static/NavigationList";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Link from "next/link";
-import { it } from "node:test";
 
 export default function Footer() {
   return (

@@ -1,4 +1,6 @@
 "use client";
+import { supabaseClient } from "@/shared/lib/supabase/client";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function NewsForm() {
@@ -13,6 +15,14 @@ export default function NewsForm() {
   const [filePdf, setFilePdf] = useState<File | null>();
   const [isSuccess, setIsSuccess] = useState<boolean | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
+
+  const router = useRouter();
+  const handleLogout = async () => {
+    const supabase = supabaseClient();
+
+    supabase.auth.signOut();
+    router.replace("/login");
+  };
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -165,6 +175,13 @@ export default function NewsForm() {
           Submit
         </button>
       </form>
+      <div className="border-b border-gray-700 w-full"></div>
+      <button
+        className="w-full py-2 bg-red-600 text-white rounded-full hover:bg-red-700 transition duration-500 cursor-pointer"
+        onClick={handleLogout}
+      >
+        Logout
+      </button>
     </div>
   );
 }
