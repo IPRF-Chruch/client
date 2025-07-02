@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import "sal.js/dist/sal.css";
 import NavigationBar from "@/shared/components/navigation/navigation";
 import Footer from "@/shared/components/footer/footer";
@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
       >
         <NavigationBar />
-        <section className="pt-24 lg:pt-42">{children}</section>
+        <section className="pt-24 lg:pt-38 min-h-screen">{children}</section>
         <Footer />
       </body>
     </html>

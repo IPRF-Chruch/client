@@ -1,6 +1,6 @@
 interface INavItem {
-    title: string;
-    href: string;
+  title: string;
+  href: string;
 }
 
 interface INavSocial {
@@ -9,26 +9,22 @@ interface INavSocial {
 }
 
 export const NavigationList: INavItem[] = [
-    {
-        title: "Home",
-        href: "/",
-    },
-    {
-        title: "About",
-        href: "/about",
-    },
-    {
-        title: "Jadwal Ibadah",
-        href: "/contact",
-    },
-    {
-        title: "Warta Jemaat",
-        href: "/contact",
-    },
-    {
-        title: "Contact",
-        href: "/contact",
-    }
+  {
+    title: "Home",
+    href: "/",
+  },
+  {
+    title: "About",
+    href: "/about",
+  },
+  {
+    title: "Jadwal Ibadah",
+    href: "/schedule",
+  },
+  {
+    title: "Warta Jemaat",
+    href: "/news",
+  },
 ];
 
 export const NavigationSocial: INavSocial[] = [

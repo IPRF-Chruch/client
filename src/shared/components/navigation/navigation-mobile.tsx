@@ -36,7 +36,12 @@ export default function NavigationBarMobile() {
         className="absolute top-0 right-0 fixed bg-white w-full h-[200vh] px-10 py-20 flex flex-col gap-6"
       >
         {NavigationList.map((item, index) => (
-          <Link href={item.href} key={index} className="text-4xl">
+          <Link
+            href={item.href}
+            key={index}
+            className="text-4xl"
+            onClick={() => setIsShow(!isShow)}
+          >
             {item.title.toUpperCase()}
           </Link>
         ))}
