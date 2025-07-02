@@ -1,43 +1,39 @@
 interface INavItem {
-    title: string;
-    href: string;
+  title: string;
+  href: string;
 }
 
 interface INavSocial {
-    icon: string;
+  icon: string;
 }
 
 export const NavigationList: INavItem[] = [
-    {
-        title: "Home",
-        href: "/",
-    },
-    {
-        title: "About",
-        href: "/about",
-    },
-    {
-        title: "Jadwal Ibadah",
-        href: "/contact",
-    },
-    {
-        title: "Warta Jemaat",
-        href: "/contact",
-    },
-    {
-        title: "Contact",
-        href: "/contact",
-    }
+  {
+    title: "Home",
+    href: "/",
+  },
+  {
+    title: "About",
+    href: "/about",
+  },
+  {
+    title: "Jadwal Ibadah",
+    href: "/schedule",
+  },
+  {
+    title: "Warta Jemaat",
+    href: "/contact",
+  },
 ];
 
 export const NavigationSocial: INavSocial[] = [
-    {
-        icon: "mdi-instagram",
-    },
-    {
-        icon: "mdi-youtube",
-    },
-    {
-        icon: "ic:baseline-tiktok",
-    },
-]
+  {
+    icon: "mdi-instagram",
+  },
+  {
+    icon: "mdi-youtube",
+  },
+  {
+    icon: "ic:baseline-tiktok",
+  },
+];
