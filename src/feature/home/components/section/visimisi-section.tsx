@@ -25,18 +25,7 @@ export default function VisiMisiSection() {
         <h1 className="text-4xl font-semibold">Visi</h1>
         <div className="border-b border-gray-700 w-full"></div>
         <p className="text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          quas natus perspiciatis? Asperiores soluta iusto sed, quidem dolores
-          sapiente, dolor sequi veniam hic fugiat, atque vero velit blanditiis
-          cupiditate expedita ullam esse consequuntur id perferendis. Quaerat,
-          inventore maxime corporis culpa ipsam temporibus doloribus a
-          perspiciatis nesciunt, repudiandae nemo ipsa libero adipisci laborum
-          ullam! Ipsam, cupiditate modi ducimus architecto reiciendis et
-          doloremque, magni rem assumenda neque cumque cum earum vero officiis
-          tenetur corporis facere! Officia minima quis mollitia, dolor, aut,
-          laborum recusandae non nam in eaque totam ab reiciendis. Laboriosam
-          saepe corrupti aliquid, aut quaerat voluptatibus a harum cumque eaque
-          ea!
+          Menjadi Gereja yang sehat dan missioner untuk memberkati bangsa-bangsa
         </p>
       </div>
       <div
@@ -47,18 +36,19 @@ export default function VisiMisiSection() {
         <h1 className="text-4xl font-semibold">Misi</h1>
         <div className="border-b border-gray-700 w-full"></div>
         <p className="text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          quas natus perspiciatis? Asperiores soluta iusto sed, quidem dolores
-          sapiente, dolor sequi veniam hic fugiat, atque vero velit blanditiis
-          cupiditate expedita ullam esse consequuntur id perferendis. Quaerat,
-          inventore maxime corporis culpa ipsam temporibus doloribus a
-          perspiciatis nesciunt, repudiandae nemo ipsa libero adipisci laborum
-          ullam! Ipsam, cupiditate modi ducimus architecto reiciendis et
-          doloremque, magni rem assumenda neque cumque cum earum vero officiis
-          tenetur corporis facere! Officia minima quis mollitia, dolor, aut,
-          laborum recusandae non nam in eaque totam ab reiciendis. Laboriosam
-          saepe corrupti aliquid, aut quaerat voluptatibus a harum cumque eaque
-          ea!
+          Memperlengkapi jemaat untuk berakar, bertumbuh dan berbuah sehingga berdampak pada tubuh Kristus, kota dan bangsa-bangsa.<br/>
+
+            Nilai-nilai gereja:<br/>
+
+            1. Tunduk pada otoritas<br/>
+
+            2. Melayani dengan spirit of excellent<br/>
+
+            3. Kuat dalam pengajaran kebenaran Firman Tuhan<br/>
+
+            4. Antusias, inspiratif dan kreatif<br/>
+
+            5. Doa, puasa dan pujian penyembahan sebagai kekuatan gereja.<br/>
         </p>
       </div>
     </div>

@@ -48,7 +48,7 @@ export default function HeroSlider() {
   );
 
   return (
-    <div className="keen-slider h-[300px] lg:h-[500px]" ref={ref}>
+    <div className="keen-slider h-[300px] lg:h-[700px]" ref={ref}>
       {HeroImages.map((image, index) => (
         <div key={index} className="keen-slider__slide">
           <Image src={image} alt="image" className="w-full object-cover" fill />
