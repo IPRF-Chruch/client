@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import "sal.js/dist/sal.css";
 import NavigationBar from "@/shared/components/navigation/navigation";
 import Footer from "@/shared/components/footer/footer";
