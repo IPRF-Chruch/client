@@ -22,7 +22,7 @@ export const NavigationList: INavItem[] = [
   },
   {
     title: "Warta Jemaat",
-    href: "/contact",
+    href: "/news",
   },
 ];
 

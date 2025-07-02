@@ -4,4 +4,5 @@ export interface INewsType {
   content: string;
   upload_date: string;
   image_url: string;
+  pdf_url: string;
 }

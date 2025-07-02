@@ -16,12 +16,12 @@ export async function GET() {
 
 export async function POST(req: Request) {
   const body = await req.json();
-  const { title, content, upload_date, image_url } = body;
+  const { title, content, upload_date, image_url, pdf_url } = body;
 
   const supabase = await supabaseServer();
   const { error } = await supabase
     .from("news")
-    .insert({ title, content, upload_date, image_url });
+    .insert({ title, content, upload_date, image_url, pdf_url });
 
   if (error) {
     return new Response(error.message, { status: 500 });
