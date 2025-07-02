@@ -1,16 +1,16 @@
-export default function NewsCard() {
+interface INewsCardProps {
+  id: number;
+  title: string;
+  content: string;
+  upload_date: string;
+  image_url: string;
+}
+
+export default function NewsCard(props: INewsCardProps) {
   return (
     <div className="border p-2 px-4 rounded-lg">
-      <h3 className="text-md font-thin">November 18, 2022</h3>
-      <h1 className="text-xl font-semibold line-clamp-2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum
-        nesciunt eligendi expedita itaque incidunt aut odio voluptates, ratione
-        veniam!
-      </h1>
-
-      <button className="text-white bg-red-600 px-7 py-2 rounded-full hover:bg-red-800 font-semibold mt-3 cursor-pointer">
-        Hapus
-      </button>
+      <h3 className="text-sm font-thin">{props.upload_date}</h3>
+      <h1 className="font-semibold line-clamp-1">{props.title}</h1>
     </div>
   );
 }
