@@ -4,7 +4,8 @@ interface INavItem {
 }
 
 interface INavSocial {
-  icon: string;
+    icon: string;
+    href: string;
 }
 
 export const NavigationList: INavItem[] = [
@@ -27,13 +28,12 @@ export const NavigationList: INavItem[] = [
 ];
 
 export const NavigationSocial: INavSocial[] = [
-  {
-    icon: "mdi-instagram",
-  },
-  {
-    icon: "mdi-youtube",
-  },
-  {
-    icon: "ic:baseline-tiktok",
-  },
-];
+    {
+        icon: "mdi-youtube",
+        href: "http://www.youtube.com/@cgcg5373"
+    },
+    {
+        icon: "brandico:facebook-rect",
+        href: "https://www.facebook.com/joyceyoan.lakawa"
+    },
+]
