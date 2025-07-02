@@ -1,4 +1,4 @@
-import image from "@/shared/assets/images/pastor/pastor1.png";
+import image from "@/shared/assets/images/pastor/Pastor-Photo.avif";
 import type { StaticImageData } from "next/image";
 
 interface IPastorBiodata {
@@ -9,18 +9,8 @@ interface IPastorBiodata {
 
 export const PastorBiodata: IPastorBiodata[] = [
   {
-    name: "Leo van Beurden, OSC",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus laboriosam tempore dolore. Iusto nulla fugiat cumque, dignissimos voluptates dolorem nesciunt?",
-    image: image,
-  },
-  {
-    name: "Leo van Beurden, OSC",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus laboriosam tempore dolore. Iusto nulla fugiat cumque, dignissimos voluptates dolorem nesciunt?",
-    image: image,
-  },
-  {
-    name: "Leo van Beurden, OSC",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus laboriosam tempore dolore. Iusto nulla fugiat cumque, dignissimos voluptates dolorem nesciunt?",
+    name: "Pastor Reinhard dan Joyce Lakawa",
+    desc: "gembala sidang gereja IPRF Minnesota",
     image: image,
   },
 ];
