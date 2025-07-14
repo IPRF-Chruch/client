@@ -18,11 +18,11 @@ export const NavigationList: INavItem[] = [
     href: "/about",
   },
   {
-    title: "Jadwal Ibadah",
+    title: "Schedule",
     href: "/schedule",
   },
   {
-    title: "Warta Jemaat",
+    title: "Newsletter",
     href: "/news",
   },
 ];

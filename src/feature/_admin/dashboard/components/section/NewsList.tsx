@@ -18,14 +18,14 @@ export default function NewsList() {
 
   return (
     <div className="space-y-5">
-      <h1 className="text-2xl font-bold">Daftar Berita</h1>
+      <h1 className="text-2xl font-bold">Newslist</h1>
       <div className="space-y-2">
         {data.length > 0 ? (
           data.map((item: INewsType, index: number) => (
             <NewsCard key={index} {...item} />
           ))
         ) : (
-          <p className="text-gray-500">Tidak Ada Berita</p>
+          <p className="text-gray-500">Nothing to show</p>
         )}
       </div>
     </div>

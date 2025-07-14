@@ -7,30 +7,30 @@ interface IValueList {
 
 export const ValueList: IValueList[] = [
   {
-    title: "Kasih",
+    title: "Love",
     description:
-      "Kasih kepada Allah dan sesama manusia menjadi landasan utama dalam ajaran Kristen.",
+      "Love for God and for others is the foundational principle of Christian teaching.",
     icon: "mdi:heart",
     duration: "1000",
   },
   {
-    title: "Kebenaran",
+    title: "Truth",
     description:
-      "Kebenaran adalah nilai penting yang harus dijunjung tinggi dalam segala aspek kehidupan.",
+      "Truth is a core value that must be upheld in all aspects of life.",
     icon: "mdi:book-open-page-variant",
     duration: "1300",
   },
   {
-    title: "Kesetiaan",
+    title: "Faithfulness",
     description:
-      "Kesetiaan kepada Tuhan, firman-Nya, dan sesama merupakan cerminan dari iman yang sejati.",
+      "Faithfulness to God, His Word, and to one another is a reflection of genuine faith.",
     icon: "mdi:shield-check",
     duration: "1600",
   },
   {
-    title: "Pengampunan",
+    title: "Forgiveness",
     description:
-      "Mengampuni orang lain adalah prinsip yang ditekankan dalam ajaran Kristen, mencerminkan kasih dan belas kasihan Allah.",
+      "Forgiving others is a key principle in Christian teaching, reflecting God's love and mercy.",
     icon: "mdi:handshake",
     duration: "1900",
   },

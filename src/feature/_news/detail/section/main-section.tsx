@@ -30,7 +30,7 @@ export default function NewsSection(
           className="px-10 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition duration-500 cursor-pointer"
           onClick={() => window.open(data?.pdf_url, "_blank")}
         >
-          Unduh PDF
+          Download PDF
         </button>
       </div>
     </div>

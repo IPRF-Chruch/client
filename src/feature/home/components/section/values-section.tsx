@@ -11,7 +11,7 @@ export default function ValuesSection() {
 
   return (
     <div className="px-8 lg:px-24 py-14 space-y-10">
-      <h1 className="text-4xl font-bold lg:text-center">Nilai Nilai Gereja</h1>
+      <h1 className="text-4xl font-bold lg:text-center">Church Values</h1>
       <div className="grid lg:grid-cols-4 pt-10 gap-14 lg:gap-0">
         {ValueList.map((item, index) => (
           <div

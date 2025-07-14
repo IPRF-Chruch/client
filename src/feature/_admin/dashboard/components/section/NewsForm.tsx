@@ -74,7 +74,7 @@ export default function NewsForm() {
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-5">
         <div className="flex flex-col">
-          <label htmlFor="title">Judul</label>
+          <label htmlFor="title">Title</label>
           <input
             type="text"
             placeholder="Title"
@@ -87,7 +87,7 @@ export default function NewsForm() {
         </div>
 
         <div className="flex flex-col">
-          <label htmlFor="content">Konten</label>
+          <label htmlFor="content">Content</label>
           <textarea
             cols={30}
             rows={5}
@@ -101,7 +101,7 @@ export default function NewsForm() {
         </div>
 
         <div className="flex flex-col">
-          <label htmlFor="date">Tanggal</label>
+          <label htmlFor="date">Date</label>
           <input
             type="text"
             name="upload_date"
@@ -131,7 +131,7 @@ export default function NewsForm() {
             htmlFor="image"
             className="cursor-pointer inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
           >
-            Upload Gambar
+            Upload Image
           </label>
           {filename && <p className="mt-2">{filename}</p>}
         </div>
@@ -161,9 +161,9 @@ export default function NewsForm() {
 
         {isSuccess &&
           (isSuccess ? (
-            <p className="text-green-500">Data Berhasil Ditambahkan</p>
+            <p className="text-green-500">Data added successfully</p>
           ) : (
-            <p className="text-red-500">Data Gagal Ditambahkan</p>
+            <p className="text-red-500">Something went wrong, Please try again</p>
           ))}
 
         {isLoading && <p className="text-blue-500">Loading...</p>}

@@ -21,8 +21,8 @@ export default function NewsContainer() {
   return (
     <section className="px-8 lg:px-24 py-5">
       <div className="text-xl font-thin space-y-2">
-        <p>BERITA</p>
-        <h1 className="text-4xl font-bold pb-10">WARTA JEMAAT</h1>
+        <p>NEWS</p>
+        <h1 className="text-4xl font-bold pb-10">{'Church Newsletter'.toUpperCase()}</h1>
       </div>
       <div className="grid md:grid-cols-3 gap-14">
         {data?.length > 0 ? (

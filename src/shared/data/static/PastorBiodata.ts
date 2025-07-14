@@ -9,8 +9,8 @@ interface IPastorBiodata {
 
 export const PastorBiodata: IPastorBiodata[] = [
   {
-    name: "Pastor Reinhard dan Joyce Lakawa",
-    desc: "gembala sidang gereja IPRF Minnesota",
+    name: "Pastors Reinhard and Joyce Lakawa",
+    desc: "Lead Pastors of IPRF Minnesota Church",
     image: image,
   },
 ];
